@@ -1,7 +1,7 @@
 <?php
-    $servername = "";
-    $username = "";
-    $password = "";
+    $servername = "rblxapi";
+    $username = "mayflower";
+    $password = "Donotnow1";
     $dbname = "rblxapi";
     $id = $_REQUEST['id'];
 
