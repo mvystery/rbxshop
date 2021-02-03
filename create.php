@@ -1,9 +1,9 @@
 <?php
     header("Access-Control-Allow-Origin: *");
 
-    $servername = "";
-    $username = "";
-    $password = "";
+    $servername = "rblxapi";
+    $username = "mayflower";
+    $password = "Donotnow1";
     $dbname = "rblxapi";
     $webhook = $_REQUEST['webhook'];
     $prompt = $_REQUEST['prompt'];
